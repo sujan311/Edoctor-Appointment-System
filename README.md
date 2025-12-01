@@ -15,49 +15,64 @@ Built using PHP, MySQL, HTML, CSS, it is ideal for learning Web Development and 
 🚀 Features
 👨‍⚕️ Patient
 
-Register / Login
+1.Register / Login
 
-View available doctors & sessions
+2.View available doctors & sessions
 
-Book appointment slots
+3.Book appointment slots
 
-View booking history
+4.View booking history
 
 🩺 Doctor
 
-Login
+1.Login
 
-Manage profile
+2.Manage profile
 
-View scheduled appointments
+3.View scheduled appointments
 
-Access patient details
+4.Access patient details
 
 🛠️ Admin
 
-Add / Edit / Delete doctors
+1.Add / Edit / Delete doctors
 
-Manage doctor sessions (availability)
+2.Manage doctor sessions (availability)
 
-View all bookings
+3.View all bookings
 
-Manage doctor database
+4.Manage doctor database
 
 🗂 Folder Structure
+
 Edoctor-Appointment-System/
+
 │── admin/
+
 │── doctor/
+
 │── patient/
+
 │── css/
+
 │── img/
+
 │── connection.php
+
 │── create-account.php
+
 │── login.php
+
 │── signup.php
+
 │── logout.php
+
 │── SQL_Database_edoc.sql
+
 │── README.md
+
 └── screenshots/
+
 
 🔧 Installation Guide (Localhost)
 1️⃣ Clone the Repository
@@ -99,25 +114,25 @@ Register using signup page
 
 ⚠️ Limitations
 
-Basic security (no encryption)
+1.Basic security (no encryption)
 
-No automated email/SMS notifications
+2.No automated email/SMS notifications
 
-No appointment cancellation
+3.No appointment cancellation
 
-UI is simple and can be improved
+4.UI is simple and can be improved
 
 🌱 Future Improvements
 
-Add email/SMS alerts for confirmations
+1.Add email/SMS alerts for confirmations
 
-Fully responsive UI (Bootstrap/React)
+2.Fully responsive UI (Bootstrap/React)
 
-Appointment rescheduling & cancellation
+3.Appointment rescheduling & cancellation
 
-Search doctor by specialty/location
+4.Search doctor by specialty/location
 
-Stronger validation & security enhancements
+5.Stronger validation & security enhancements
 
 👤 Author
 
