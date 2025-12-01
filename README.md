@@ -8,9 +8,13 @@ Edoctor Appointment System is a lightweight and user-friendly platform that allo
 Built using PHP, MySQL, HTML, CSS, it is ideal for learning Web Development and Computer Networks concepts.
 
 ✔ Online appointment booking
+
 ✔ Doctor availability management
+
 ✔ Three-role authentication (Admin, Doctor, Patient)
+
 ✔ Easy-to-use dashboard interface
+
 
 🚀 Features
 👨‍⚕️ Patient
