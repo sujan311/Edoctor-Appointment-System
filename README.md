@@ -1,103 +1,136 @@
-Edoctor-Appointment-System
+🌐 Edoctor Appointment System
+🩺 A Complete Web-Based Doctor Appointment Booking System (PHP + MySQL)
+<p align="center"> <img src="https://img.shields.io/github/repo-size/sujan311/Edoctor-Appointment-System?color=blue" /> <img src="https://img.shields.io/github/languages/count/sujan311/Edoctor-Appointment-System?color=green" /> <img src="https://img.shields.io/badge/PHP-7.4+-777BB4?logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-5.7+-4479A1?logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Status-Active-success" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> </p>
 
-A simple web-based Doctor Appointment Booking System built with PHP, MySQL, HTML/CSS — supporting three user roles (Admin, Doctor, Patient) to manage appointment scheduling, user accounts and doctor-patient interactions.
+📘 Project Overview
 
-🎯 Purpose & Overview
+Edoctor Appointment System is a lightweight and user-friendly platform that allows patients to book appointments, doctors to manage schedules, and admins to manage the system.
+Built using PHP, MySQL, HTML, CSS, it is ideal for learning Web Development and Computer Networks concepts.
 
-Edoctor-Appointment-System allows:
+✔ Online appointment booking
+✔ Doctor availability management
+✔ Three-role authentication (Admin, Doctor, Patient)
+✔ Easy-to-use dashboard interface
 
-Patients to browse doctors, create accounts, and book appointments online.
+🚀 Features
+👨‍⚕️ Patient
 
-Doctors to view their scheduled appointments and manage their profile/account.
+Register / Login
 
-Admin to manage doctors (add/edit/delete), manage doctor availability/sessions, and view patient booking data.
+View available doctors & sessions
 
-The system helps clinics/hospitals manage appointments digitally — reducing manual scheduling, improving organization, and providing convenient booking for patients. This approach reflects what typical doctor-appointment web systems aim to provide. 
-SourceCodester
-+2
-GitHub
-+2
+Book appointment slots
 
-✅ Features
+View booking history
 
-User roles: Admin, Doctor, Patient.
+🩺 Doctor
 
-User authentication & account management (login, signup, logout, profile settings).
+Login
 
-Doctor management (Admin): Add/edit/delete doctors with specialty, contact, credentials.
+Manage profile
 
-Doctor availability scheduling (Admin): Create sessions/slots for doctors; remove or modify sessions.
+View scheduled appointments
 
-Patient functionality: Sign up / login; browse doctors; view available sessions; book appointments.
+Access patient details
 
-Doctor functionality: View upcoming appointments, patient details, account settings.
+🛠️ Admin
 
-Admin functionality: View all patients, bookings, doctor schedules; manage doctor database and sessions.
+Add / Edit / Delete doctors
 
-🗂️ Project Structure
-/
-├── admin/             # Admin-side pages
-├── doctor/            # Doctor-side pages
-├── patient/           # Patient-side pages
-├── css/               # Stylesheets
-├── img/               # Images / assets
-├── connection.php     # DB connection setup
-├── create-account.php # User registration
-├── login.php          # Login page
-├── logout.php         # Logout logic
-├── signup.php         # Signup logic
-├── SQL_Database_edoc.sql  # Database schema / seed data
-└── ...                # Other PHP files for functionality
+Manage doctor sessions (availability)
 
-📥 Installation & Setup (Local)
+View all bookings
 
-Make sure you have a local web server setup (e.g. XAMPP, WAMP) with PHP and MySQL support.
+Manage doctor database
 
-Clone this repository:
+🗂 Folder Structure
+Edoctor-Appointment-System/
+│── admin/
+│── doctor/
+│── patient/
+│── css/
+│── img/
+│── connection.php
+│── create-account.php
+│── login.php
+│── signup.php
+│── logout.php
+│── SQL_Database_edoc.sql
+│── README.md
+└── screenshots/
 
+🔧 Installation Guide (Localhost)
+1️⃣ Clone the Repository
 git clone https://github.com/sujan311/Edoctor-Appointment-System.git
 
+2️⃣ Move to Server Directory
 
-Copy the project folder into your server’s document root (e.g. htdocs for XAMPP).
+Place the project inside:
 
-Open your web-server’s control panel (start Apache + MySQL).
+XAMPP → htdocs/
 
-Open phpMyAdmin and create a new database (e.g. edoc).
+WAMP → www/
 
-Import the SQL_Database_edoc.sql file to set up the necessary tables & sample data.
+3️⃣ Start Server
 
-Access the application via browser (e.g. http://localhost/your-folder-name/).
+Open XAMPP/WAMP → Start Apache & MySQL
 
-Use the signup/login pages to start as Admin / Doctor / Patient.
+4️⃣ Create Database
 
-🧑‍💻 How to Use
+Visit: http://localhost/phpmyadmin
 
-As Admin: log in → manage doctors (add/edit/delete), manage doctor sessions, view bookings & patient details.
+Create a database: edoc
 
-As Doctor: log in → view your scheduled appointments, patient info, adjust your profile/account.
+Import SQL file: SQL_Database_edoc.sql
 
-As Patient: sign up → browse doctors → check their availability → book appointment → view bookings / history.
+5️⃣ Run the System
+http://localhost/Edoctor-Appointment-System/
 
-⚠️ Notes & Limitations
+🧪 Default Logins (If applicable)
+Admin:
+Username: admin
+Password: admin123 (or check SQL file)
 
-This is a basic appointment system, without advanced features like notifications, email reminders, or payment integration.
+Doctor:
+Credentials added by Admin
 
-Security and validation are minimal — for production use, you’d need to add input sanitization, session-handling, secure authentication, and possibly HTTPS support.
+Patient:
+Register using signup page
 
-There is no support for rescheduling or cancelling appointments (unless you add those flows manually).
+⚠️ Limitations
 
-The UI and layout are minimal — you may want to improve styling for better UX.
+Basic security (no encryption)
 
-💡 Potential Future Enhancements
+No automated email/SMS notifications
 
-Add appointment notifications / email reminders.
+No appointment cancellation
 
-Enable appointment cancellation / rescheduling by patients and doctors.
+UI is simple and can be improved
 
-Add search/filter doctors by specialty, availability, location etc.
+🌱 Future Improvements
 
-Improve UI/UX (responsive design, better CSS, maybe a frontend framework).
+Add email/SMS alerts for confirmations
 
-Add role-based access control, more robust authentication & security.
+Fully responsive UI (Bootstrap/React)
 
-Add audit logs, appointment history, doctor/patient profile pages with more data.
+Appointment rescheduling & cancellation
+
+Search doctor by specialty/location
+
+Stronger validation & security enhancements
+
+👤 Author
+
+SAI SUJAN
+🔗 GitHub: https://github.com/sujan311
+
+⭐ If you like this project, support by giving a Star on GitHub!
+
+📄 License
+
+This project is licensed under the MIT License.
+
+## 📫 Connect with Me
+- GitHub: https://github.com/sujan311
+
+https://github.com/sujan311/Edoctor-Appointment-System
